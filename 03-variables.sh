@@ -5,7 +5,7 @@
 
 here we specicfy the person with $ symbol
 her $=varaiable
-PERSON1=venu  no space between = value
+PERSON1=venu  
 PERSON2=ramya
 
 #refereing of varaiable
