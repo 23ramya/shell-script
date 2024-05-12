@@ -6,7 +6,7 @@
 here we specicfy the person with $ symbol
 her $=varaiable
 PERSON1=venu  no space between = value
-person2=ramya
+PERSON2=ramya
 
 #refereing of varaiable
 echo hi $PERSON1 how is your work
