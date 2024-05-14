@@ -9,7 +9,7 @@ if [$NUMBER -gt 0]
 
  else
  echo "Given number $NUMBER less than 10"
- 
- Fi
+
+ fi
 
  #-git=greaterthan= , -lt=lessthan= , -eq==  -le
