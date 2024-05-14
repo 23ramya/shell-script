@@ -1,10 +1,10 @@
-#!bin/bash
+#!/bin/bash
 
 
 #decalring of variable
 
-#here we specicfy the person with $ symbol
-#here $=varaiable
+# here we specicfy the person with $ symbol
+# here $=varaiable
 # no space between =and value
 
 PERSON1=venu 
