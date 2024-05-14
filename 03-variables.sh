@@ -5,11 +5,13 @@
 
 here we specicfy the person with $ symbol
 her $=varaiable
-PERSON1=venu  
+PERSON1=venu  #no space between = and value
 PERSON2=ramya
 
 #refereing of varaiable
-echo hi $PERSON1 how is your work
-echo hello $PERSON2 iam doing well. what about your work.
-echo my work is going very well $PERSON2.
-echo ok $PERSON1 bye.
+
+echo $PERSON1 hello suresh how are you?
+echo $PERSON2 hi iam fine .how are you ?
+echo $PERSON1 Iam fine to ,how is your work?
+echo $PERSON1  Iam not bad .iam thinking to  upgrade to Devops
+
