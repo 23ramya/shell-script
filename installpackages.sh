@@ -17,7 +17,7 @@ N="\e[0m"
      echo -e "$2....$G SUCEESS $N"
     fi
  }
- if [USERID -ne 0]
+ if [ USERID -ne 0 ]
  then
 
  echo "please run this script with root access"
@@ -33,7 +33,8 @@ N="\e[0m"
   do
   echo "packages to install: $i"
   dnf  list installed $i &>>LOGFILE
-    if[$? -eq 0]
+    if[ $? -eq 0 ]
+    
     then
     echo   -e "$i already installed...$Y SKIPPING $N"
     else
