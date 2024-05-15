@@ -11,13 +11,11 @@ N="\e[0m"
  VALIDATE(){
 
     if[ $1 -ne 0]
-
     then
     echo -e "$2....$R FALURE $N"
     exit1
     else
-    
-    echo -e "$2....$G SUCEESS $N"
+     echo -e "$2....$G SUCEESS $N"
     fi
  }
  if [USERID -ne 0]
