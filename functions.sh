@@ -6,7 +6,7 @@ SCRIPT_NAME=$(echo $0 | cut -d "." -f1) #this is used for we will print with out
 LOGFILE=/tmp/$SCRIPT_NAME-$TIME_STAMP.log
 
 VALIDATE(){
-    if [$1 -ne 0]
+    if [ $1 -ne 0 ]
     then
 
     echo "$2....FAILURE"
@@ -17,7 +17,7 @@ VALIDATE(){
     fi
 
 }
-if [ $USERID -ne 0]
+if [ $USERID -ne 0 ] 
 then 
 echo "please run this script with out root acess"
 exit 1 # manually exit if error comes
